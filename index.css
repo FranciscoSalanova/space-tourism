@@ -15,7 +15,7 @@
     --fs-600: 2rem;
     --fs-500: 1.75rem;
     --fs-400: 1.125rem;
-    --fs-300: 1rem;
+    --fs-300: 1rem; /* 1rem = 16px */
     --fs-200: 0.875rem;
 
     /* font-families */
@@ -220,4 +220,17 @@ select {
 .fs-700,
 .fs-600 {
     line-height: 1.1;
+}
+
+.numbered-title {
+    font-size: var(--fs-500);
+    font-family: var(--ff-sans-cond);
+    text-transform: uppercase;
+    letter-spacing: 4.75px;
+}
+
+.numbered-title span {
+    margin-right: .3em;
+    font-weight: 700;
+    opacity: 25%;
 }
